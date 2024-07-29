@@ -16,7 +16,7 @@ export default function Home() {
                     Welcome to <span className="text-[#766BBC]">Taskify</span>!
                 </h1>
                 <br />
-                {newUser ? < Signup setNewUser={setNewUser} /> : <Login setNewUser={setNewUser} />}
+                {newUser ? <Signup setNewUser={setNewUser} /> : <Login setNewUser={setNewUser} />}
             </div>
         </main>
     );
